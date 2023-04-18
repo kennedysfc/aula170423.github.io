@@ -1,0 +1,50 @@
+/* Estilos básicos para a página */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+/* Estilos para o cabeçalho */
+header, footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 0;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+form{
+    margin-right: 25px;
+}
+
+.logo {
+	font-size: 2em;
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
